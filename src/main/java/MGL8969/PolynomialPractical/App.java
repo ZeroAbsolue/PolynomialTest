@@ -6,7 +6,7 @@ package MGL8969.PolynomialPractical;
  */
 public class App {
     public static void main(String[] args) {
-        APolynomial ap = new APolynomial();
+        LLPolynomial ap = new LLPolynomial();
         Term term = new Term(2, 'x', 3);
         ap.addTerm(term);
         ap.addTerm(new Term(2, 'y', 4));
@@ -15,7 +15,7 @@ public class App {
         ap.addTerm(new Term(7, 't', 4));
         ap.addTerm(new Term(7, ' ', 0));
 
-        APolynomial ap2 = new APolynomial();
+        LLPolynomial ap2 = new LLPolynomial();
         ap2.addTerm(new Term(2, 'y', 4));
         ap2.addTerm(new Term(-7, 'y', 4));
         ap2.addTerm(new Term(-7, 'z', 4));
